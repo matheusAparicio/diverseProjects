@@ -9,7 +9,11 @@ namespace diverseProjects
 
             bool loopActive = true;
 
-            Console.Write(
+            
+
+            while (loopActive) {
+                Console.Clear();
+                Console.Write(
                 "Qual projeto você gostaria de testar?                       .----.\n" +
                 "1. Decodificador de Morse                      .---------.  | == |\n" +
                 "2. Construtor de escadas                       |.-'''''-.|  |----|\n" +
@@ -20,8 +24,6 @@ namespace diverseProjects
                 "                                              /:::::::::::\\ ____'\n" +
                 "0. Encerrar software                         /:::=======:::\\     \n" +
                 "                                         --- `'''''''''''''`   '-'\n");
-
-            while (loopActive) {
                 Console.Write("\nDigite seu código: "); int input = int.Parse(Console.ReadLine());
                 Console.WriteLine();
 
@@ -83,14 +85,19 @@ namespace diverseProjects
                             employees[i] = (new Employee(id, name, salary));
                         }
 
-                        Console.Write("Enter the employee id that will have salary increase: "); int idSalaryRaise = int.Parse(Console.ReadLine() ?? "");
-                        foreach (Employee employee in employees) {
-                            if (employee.GetId() == idSalaryRaise) {
-                                Console.Write("Enter the percentage: "); employee.RaiseSalary(double.Parse(Console.ReadLine() ?? ""));
-                                Console.WriteLine();
-                                foundId = true;
-                                break;
+                        Console.Write("Enter the employee id that will have salary increase: ");
+                        try {
+                            int idSalaryRaise = int.Parse(Console.ReadLine() ?? "");
+                            foreach (Employee employee in employees) {
+                                if (employee.GetId() == idSalaryRaise) {
+                                    Console.Write("Enter the percentage: "); employee.RaiseSalary(double.Parse(Console.ReadLine() ?? ""));
+                                    Console.WriteLine();
+                                    foundId = true;
+                                    break;
+                                }
                             }
+                        } catch (Exception e) {
+                            Console.WriteLine(e.Message);
                         }
 
                         if (!foundId) { Console.WriteLine("This id does not exist!\n"); }
@@ -106,6 +113,8 @@ namespace diverseProjects
                         Console.WriteLine("Código não encontrado.");
                         break;
                 }
+                Console.ReadLine();
+                
             }
 
         }
