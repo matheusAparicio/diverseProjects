@@ -1,0 +1,15 @@
+D:\Matheus\C#\diverseProjects\C#\diverseProjects\bin\Debug\net6.0\diverseProjects.exe
+D:\Matheus\C#\diverseProjects\C#\diverseProjects\bin\Debug\net6.0\diverseProjects.deps.json
+D:\Matheus\C#\diverseProjects\C#\diverseProjects\bin\Debug\net6.0\diverseProjects.runtimeconfig.json
+D:\Matheus\C#\diverseProjects\C#\diverseProjects\bin\Debug\net6.0\diverseProjects.dll
+D:\Matheus\C#\diverseProjects\C#\diverseProjects\bin\Debug\net6.0\ref\diverseProjects.dll
+D:\Matheus\C#\diverseProjects\C#\diverseProjects\bin\Debug\net6.0\diverseProjects.pdb
+D:\Matheus\C#\diverseProjects\C#\diverseProjects\obj\Debug\net6.0\diverseProjects.csproj.AssemblyReference.cache
+D:\Matheus\C#\diverseProjects\C#\diverseProjects\obj\Debug\net6.0\diverseProjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\Matheus\C#\diverseProjects\C#\diverseProjects\obj\Debug\net6.0\diverseProjects.AssemblyInfoInputs.cache
+D:\Matheus\C#\diverseProjects\C#\diverseProjects\obj\Debug\net6.0\diverseProjects.AssemblyInfo.cs
+D:\Matheus\C#\diverseProjects\C#\diverseProjects\obj\Debug\net6.0\diverseProjects.csproj.CoreCompileInputs.cache
+D:\Matheus\C#\diverseProjects\C#\diverseProjects\obj\Debug\net6.0\diverseProjects.dll
+D:\Matheus\C#\diverseProjects\C#\diverseProjects\obj\Debug\net6.0\ref\diverseProjects.dll
+D:\Matheus\C#\diverseProjects\C#\diverseProjects\obj\Debug\net6.0\diverseProjects.pdb
+D:\Matheus\C#\diverseProjects\C#\diverseProjects\obj\Debug\net6.0\diverseProjects.genruntimeconfig.cache
